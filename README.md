@@ -22,3 +22,6 @@ conda install pytorch=0.4.0 -c pytorch  # Some errors occurred when I ran the ab
 
 Python code main.py in the repository contains all necessary code for this project. Running python main.py will start training automatically. The script will save intermediate model into checkpoint file. 
 
+## Learning algorithms
+
+This implementation uses Deep Reinforcement Learning approach. To be more specific, Deep Q Network (DQN) is utilized to represent a stata-action value function, converting a state vector into action values. The training process involves Experience Relay to break unwanted correlation in experiences. In addition, fixed Q target is also implemented for the sake of training stability. 
