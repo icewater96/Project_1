@@ -1,3 +1,4 @@
+# Report
 
 ## Learning algorithms
 
@@ -15,6 +16,7 @@ Other hyperparameters are listed below:
 
 ## Plot of rewards
 This plot demonstrates the training process. The Y-Axis is average of reward over 100 episodes. As the training goes on, the average reward over 100 episode reached above 16.0. 
+
 ![](/Figure_1.png)
 
 
