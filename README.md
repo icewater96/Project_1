@@ -4,7 +4,9 @@ This repository is Project 1 in Udacity Deep Reinforcement Learning.
 
 ## Getting started
 
-I have Windows 10 OS and did the following from the dependencies section of https://github.com/udacity/deep-reinforcement-learning:
+The framework is based on Pytorch and Python 3.6. 
+
+My implementation is based on Windows 10 OS and did the following from the dependencies section of https://github.com/udacity/deep-reinforcement-learning:
 
 conda create --name drlnd python=3.6
 
@@ -18,7 +20,7 @@ pip install .
 
 conda install pytorch=0.4.0 -c pytorch  # Some errors occurred when I ran the above line. My Undacity mentor suggested this line. 
 
-Once the above steps are done, one needs to clone this repository to get the working code and saved model weights 
+Once the above steps are done, one needs to clone this repository to get the working code and saved model weights.
 
 ## How to run
 
@@ -37,6 +39,11 @@ Other hyperparameters are listed below:
 - TAU = 1e-3    # for soft update of target parameters
 - LR = 5e-4   # learning rate
 - UPDATE_EVERY = 4   # how ofter to update the network
+
+## Plot of rewards
+This plot demonstrates the training process. As time goes by, the average reward over 100 episode reached above 16.0. 
+![](/Figure_1.png)
+
 
 ## Future work
 This implement works fine but it takes a long time to train. I would like to try Prioritized Experience Replay and Dueling Network to improve performance. 
